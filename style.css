@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* CUSTOM STYLES  */
+
+
+* {
+    box-sizing:border-box;
+}
+body{
+    line-height:1.5;
+    font-size:16px;
+}
+
+.container{
+    max-width:1000px;
+    margin:0 auto;
+    padding:0 30px;
+}
+.flex{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* HEADER  */
+.header{
+    color:white;
+    padding:30px 0;
+    background-color:rgb(52, 52, 68)
+} 
+h1{
+    font-size:26px;
+}
+p {
+    font-size:15px;
+}
+
+
+/* SECTION  */
+.section{
+    background-color:rgb(10, 10, 14);
+    padding:30px 0;
+}
+
+
+.box{
+    color:white;
+    font-size:14px;
+    width:24%;
+    background-color:rgb(17, 17, 24);
+    padding:30px;
+    border-radius:10px;
+    border-top:5px rgb(81, 81, 231) solid
+}
+.box .counting{
+    margin-top:10px
+}
+.box .increase{
+    margin-top:15px;
+}
+.box-1 .logo i{
+    font-size:18px;
+    margin-right:7px;
+    color:rgb(81, 81, 231)
+}
+.box-2 .logo i{
+    font-size:18px;
+    margin-right:7px;
+    color:rgb(81, 81, 231)
+}
+.box-3 .logo i{
+    font-size:18px;
+    margin-right:7px;
+    color:rgb(139, 4, 110);
+}
+.box-3{
+    border-top:5px rgb(139, 4, 110)solid;
+}
+.box-4 .logo i{
+    font-size:18px;
+    margin-right:7px;
+    color:red;
+}
+.box-4{
+    border-top:5px red solid;
+}
+.counting h2{
+    font-size:34px;
+}
+.counting p{
+    font-size:16px;
+}
+.box .increase{
+    font-size:14px;
+    color:rgb(64, 145, 64);
+}
+.box .increase i {
+    margin-right:5px;
+}
+.box-4 .increase i {
+    color:red;
+}
+
+
+/*  Section - 2 */
+.section-2 {
+    margin-top:40px;
+}
+.section-2 h2{
+    font-size:24px;
+    color:white;
+}
+
+
+.box-overview {
+    color:white;
+    padding:20px;
+    background-color:rgb(17, 17, 24);
+    width:23%;
+    margin-top:20px;
+    border-radius:10px;
+}
+.box-overview .logo{
+    font-size:16px;
+}
+.box-overview .logo i{
+    color:rgb(81, 81, 231)
+} 
+.box-overview .increase i{
+    color:green;
+}
+.box-overview .increase  {
+    font-size:30px;
+    margin-top:20px;
+}
+.box-overview .increase .i-ov {
+    font-size:15px;
+}
+.box-overview .increase .i-ov {
+    color:green;
+}
+.box-o-2 .increase .i-ov, .box-o-7 .increase .i-ov,.box-o-8 .increase .i-ov{
+    color:red;
+}
+.box-o-2 .increase i,.box-o-7 .increase i,.box-o-8 .increase i{
+    color:red;
+}
+.section-2 .flex{
+    flex-wrap:wrap;
+}
+
+.box-o-3 .logo i, .box-o-4 .logo i{
+    color:rgb(139, 4, 110);
+}
+.box-o-5 .logo i,.box-o-6 .logo i{
+    color:rgb(81, 81, 231);
+}
+.box-o-7 .logo i, .box-o-8 .logo i{
+    color:red;
+}
